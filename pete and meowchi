@@ -2074,6 +2074,7 @@ function handlePeteResponse(response) {
 // Start Meowchi's dialogue sequence
 function startMeowchiDialogue() {
   console.log("Starting Meowchi dialogue sequence");
+  showBlankImage = true;
   isTypingActive = false;
   userInput = "";
   cursorPosition = 0;
